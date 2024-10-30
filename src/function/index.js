@@ -5,7 +5,6 @@ document.body.appendChild(container);
 
 // Set background video
 const video = document.createElement("video");
-<<<<<<< MasiraMehreen-patch-1-1
 video.src = "https://pin.it/6JF0nA3oB";  
 video.autoplay = true;
 video.muted = true;
@@ -22,8 +21,7 @@ document.body.appendChild(video);
 
 // Set background audio
 const audio = document.createElement("audio");
-<<<<<<< MasiraMehreen-patch-1-1
-audio.src = "https://pixabay.com/sound-effects/relaxing-ocean-waves-high-quality-recorded-177004/"; 
+audio.src = "https://pixabay.com/sound-effects/relaxing-ocean-waves-high-quality-recorded-177004/";
 audio.autoplay = true;
 audio.loop = true;
 document.body.appendChild(audio);
