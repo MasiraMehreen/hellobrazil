@@ -1,0 +1,42 @@
+{
+  "name": "hellobrazil",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241030110153",
+  "not-first-run": true,
+  "function": {
+    "id": 31465,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 30140,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 183171
+  },
+  "application": {
+    "id": 1730282860,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730281393,
+    "name": "hellobrazil",
+    "domain_name": "fdu25kgiz6.map.azionedge.net",
+    "url": "https://fdu25kgiz6.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 313524,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
