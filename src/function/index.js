@@ -23,7 +23,7 @@ async function handleRequest(request, args) {
     <body>
       <div id="container"></div>
       <video src="https://v1.pinimg.com/videos/mc/720p/c2/33/1f/c2331f4a5fc4115a12348ebb56c9fa6f.mp4" autoplay muted loop></video>
-      <audio src="https://example.com/path/to/your-audio.mp3" autoplay loop></audio>
+      <audio src="https://www.dropbox.com/scl/fi/x9cj4xcf766z2m34bzcga/relaxing-ocean-waves-high-quality-recorded-177004.mp3" autoplay loop></audio>
       <button onclick="toggleLanguage()">Switch Language</button>
       
       <script>
