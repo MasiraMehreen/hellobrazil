@@ -31,9 +31,13 @@ async function handleRequest(request, args) {
           const heart = '&#9829;';
           let message;
           if (language === 'pt') {
-            message = \`Olá, pessoas maravilhosas! Desejando um dia feliz e saudável, \${name} \${heart}\`;
+            message = \`Olá, pessoas maravilhosas!
+            Se você alguma vez se sentir desanimado com sua vida, lembre-se: o Brasil é tão longo que leva uma semana para dirigir de uma ponta a outra. Você tem tempo amigo!
+            Desejando um dia feliz e saudável, \${name} \${heart}\`;
           } else {
-            message = \`Hello, wonderful people! Wishing you a happy and healthy day, \${name} \${heart}\`;
+            message = \`Hello, wonderful people!
+            If you ever feel down about your life, just remember: Brazil is so long, it takes a week to drive from one end to the other. You’ve got time friend!
+            Wishing you a happy and healthy day, \${name} \${heart}\`;
           }
           document.getElementById("container").innerHTML = \`
             <div style="padding: 20px; max-width: 600px; background: rgba(0, 0, 0, 0.6); border-radius: 10px; color: white; text-align: center;">
