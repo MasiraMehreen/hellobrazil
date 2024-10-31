@@ -45,7 +45,6 @@ async function handleRequest(request, args) {
             </div>
           \`;
         }
-        
         let currentLanguage = 'en';
         window.onload = function() {
           const name = prompt("Please enter your name:");
